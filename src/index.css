@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------- Theme Variables ---------- */
+
+:root {
+  --background: #ffffff;
+  --surface: #f8fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --text-secondary: #475569;
+  --border: #e2e8f0;
+  --primary: #2563eb;
+}
+
+/* Theme variables when html has class="dark" */
+html.dark {
+  --background: #020617;
+  --surface: #0f172a;
+  --card: #1e293b;
+  --text: #f8fafc;
+  --text-secondary: #94a3b8;
+  --border: #334155;
+  --primary: #3b82f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+
+  background-size: 50px 50px;
+  z-index: -1;
+}
+
+/* ---------- Theme Utility Classes ---------- */
+
+.bg-theme {
+  background-color: var(--background);
+}
+
+.surface-theme {
+  background-color: var(--surface);
+}
+
+.card-theme {
+  background-color: var(--card);
+}
+
+.primary-bg {
+  background-color: var(--primary);
+}
+.text-theme {
+  color: var(--text);
+}
+
+.text-secondary-theme {
+  color: var(--text-secondary);
+}
+
+.border-theme {
+  border-color: var(--border);
+}
+
+.primary-theme {
+  color: var(--primary);
+}
