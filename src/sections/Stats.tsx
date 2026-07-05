@@ -37,7 +37,7 @@ const Stats = () => {
             transition={{ duration: 0.6 }}
             className="rounded-2xl bg-slate-100 p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl dark:bg-slate-900"
           >
-            <h2 className="text-5xl font-bold text-blue-500 dark:text-blue-400">
+            <h2 className="text-3xl font-bold text-blue-500 sm:text-4xl md:text-5xl dark:text-blue-400">
               <AnimatedCounter end={stat.number} />
               {stat.suffix}
             </h2>
