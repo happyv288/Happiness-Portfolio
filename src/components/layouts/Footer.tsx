@@ -1,5 +1,11 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaEnvelope, FaArrowUp, FaHeart } from "react-icons/fa";
+import {
+  FaGithub,
+  FaEnvelope,
+  FaArrowUp,
+  FaHeart,
+  FaLinkedin,
+} from "react-icons/fa";
 import logo from "../../assets/logo.png";
 
 const Footer = () => {
@@ -58,7 +64,17 @@ const Footer = () => {
           </div>
 
           {/* Social */}
+
           <div className="mt-12 flex justify-center gap-5">
+            <a
+              href="https://www.linkedin.com/in/happiness-victor-175702420/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="flex h-14 w-14 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-700 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500 hover:text-blue-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:text-blue-400"
+            >
+              <FaLinkedin size={22} />
+            </a>
             <a
               href="https://github.com/happyv288"
               target="_blank"

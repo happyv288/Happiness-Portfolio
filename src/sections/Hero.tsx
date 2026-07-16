@@ -26,7 +26,7 @@ const Hero = () => {
       <div className="absolute bottom-0 right-0 h-[28rem] w-[28rem] rounded-full bg-purple-600/20 blur-3xl" />
 
       <div className="absolute top-1/2 left-1/2 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-500/10 blur-3xl" />
- 
+
       <div className="mx-auto flex min-h-[calc(100vh-80px)] w-full max-w-7xl  text-slate-900 dark:text-white flex-col items-center justify-between px-6 lg:flex-row">
         {/* Left Side */}
         <motion.div
@@ -72,7 +72,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="/resume/Happiness_Victor_Resume.pdf"
+              href="/Happiness_V_Akuewanbhor_Resume_V2.pdf"
               download
               className="rounded-xl border border-slate-300 px-8 py-4 font-semibold text-slate-900 transition-all duration-300 hover:border-blue-600 hover:bg-blue-600 hover:text-white dark:border-slate-600 dark:text-white dark:hover:border-white dark:hover:bg-white dark:hover:text-slate-900"
             >
@@ -99,17 +99,19 @@ dark:text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:scale
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/happiness-victor-175702420/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
             >
-              <FaLinkedin className="h-12 w-12 rounded-full borderborder-slate-300
+              <FaLinkedin
+                className="h-12 w-12 rounded-full borderborder-slate-300
 bg-white
 text-slate-700
 dark:border-slate-700
 dark:bg-slate-900
-dark:text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:scale-110 hover:border-blue-500 hover:text-blue-400 hover:shadow-lg hover:shadow-blue-500/40" />
+dark:text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:scale-110 hover:border-blue-500 hover:text-blue-400 hover:shadow-lg hover:shadow-blue-500/40"
+              />
             </a>
 
             <a
@@ -118,12 +120,14 @@ dark:text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:scale
               rel="noopener noreferrer"
               aria-label="Email"
             >
-              <FaEnvelope className="h-12 w-12 rounded-full borderborder-slate-300
+              <FaEnvelope
+                className="h-12 w-12 rounded-full borderborder-slate-300
 bg-white
 text-slate-700
 dark:border-slate-700
 dark:bg-slate-900
-dark:text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:scale-110 hover:border-blue-500 hover:text-blue-400 hover:shadow-lg hover:shadow-blue-500/40" />
+dark:text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:scale-110 hover:border-blue-500 hover:text-blue-400 hover:shadow-lg hover:shadow-blue-500/40"
+              />
             </a>
           </div>
         </motion.div>
@@ -159,7 +163,9 @@ dark:text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:scale
           />
 
           <TechBadge
-            icon={<SiExpress className="text-lg text-slate-900 dark:text-white"  />}
+            icon={
+              <SiExpress className="text-lg text-slate-900 dark:text-white" />
+            }
             label="Express"
             duration={3.8}
             className="bottom-32 -right-4"

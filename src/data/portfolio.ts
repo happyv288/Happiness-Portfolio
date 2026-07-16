@@ -7,7 +7,7 @@ export const heroData = {
   resume: "/resume/Happiness_Victor_Resume.pdf",
   socials: {
     github: "https://github.com/happyv288",
-    linkedin: "https://linkedin.com/in/happyv288",
+    linkedin: "https://www.linkedin.com/in/happiness-victor-175702420",
     email: "victorhappiness288@gmail.com",
   },
 };
@@ -110,8 +110,8 @@ export const projects = [
       "EmailJS Contact Form",
       "Responsive Design",
     ],
-    github: "#",
-    live: "#",
+    github: "https://github.com/happyv288/Happiness-Portfolio",
+    live: "https://happiness-portfolio-pi.vercel.app/",
   },
 
   {
@@ -138,4 +138,32 @@ export const projects = [
     github: "https://github.com/happyv288/Countrydetails.git",
     live: "https://countrydetails-six.vercel.app/",
   },
+  {
+  id: 5,
+  title: "TaskFlow",
+  category: "MERN",
+  description:
+    "A modern full-stack task management application that helps users organize work efficiently. Features secure authentication, drag-and-drop task management, analytics dashboard, Kanban board, profile management, and responsive dark mode.",
+  image: "/public/taskflow.png.png",
+  tech: [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Tailwind CSS",
+    "JWT",
+    "Cloudinary"
+  ],
+  highlights: [
+    "JWT Authentication",
+    "Kanban Board",
+    "Drag & Drop",
+    "Dashboard Analytics",
+    "Profile & Avatar Upload",
+    "Dark Mode"
+  ],
+  github: "https://github.com/happyv288/TaskFlow",
+  live: "https://task-flow-9ngb.vercel.app/",
+},
 ];

@@ -100,7 +100,7 @@ const Navbar = () => {
         {/* Desktop Right */}
         <div className="hidden items-center gap-4 md:flex">
           <a
-            href="/resume/Happiness_Victor_Resume.pdf"
+            href="/Happiness_V_Akuewanbhor_Resume_V2.pdf"
             download
             className="primary-bg rounded-xl px-6 py-2 font-medium text-white transition-all duration-300 hover:scale-105"
           >
