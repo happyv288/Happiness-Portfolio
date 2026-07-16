@@ -144,7 +144,7 @@ export const projects = [
   category: "MERN",
   description:
     "A modern full-stack task management application that helps users organize work efficiently. Features secure authentication, drag-and-drop task management, analytics dashboard, Kanban board, profile management, and responsive dark mode.",
-  image: "/public/taskflow.png",
+  image: "/public/taskflow-image.png",
   tech: [
     "React",
     "TypeScript",
