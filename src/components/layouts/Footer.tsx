@@ -52,7 +52,15 @@ const Footer = () => {
 
           {/* Navigation */}
           <div className="mt-12 flex flex-wrap justify-center gap-8">
-            {["Home", "About", "Skills", "Projects", "Contact"].map((item) => (
+            {[
+              "Home",
+              "About",
+              "Services",
+              "Skills",
+              "Experience",
+              "Projects",
+              "Contact",
+            ].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
