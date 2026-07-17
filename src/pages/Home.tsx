@@ -23,9 +23,9 @@ const Home = () => {
       <Projects />
       <CallToAction />
       <Contact />
-      <Footer />
-      <Stats />
 
+      <Stats />
+      <Footer />
       <BackToTop />
     </>
   );
