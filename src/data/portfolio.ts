@@ -260,7 +260,7 @@ export const contactData = {
 
   email: "victorhappiness18@gmail.com",
 
-  phone: "+234 8068703903",
+  phone: "+234 8080030065",
 
   location: "Lagos, Nigeria",
 };
