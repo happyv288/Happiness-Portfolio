@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { contactData } from "../data/portfolio";
 
 const Contact = () => {
   const form = useRef<HTMLFormElement>(null);
@@ -53,11 +54,10 @@ const Contact = () => {
             Contact
           </p>
 
-          <h2 className="mt-4 text-5xl font-bold">Let's Work Together</h2>
+          <h2 className="mt-4 text-5xl font-bold">{contactData.title}</h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-slate-600 dark:text-slate-400">
-            I'm always interested in discussing new opportunities, freelance
-            work, internships and exciting collaborations.
+            {contactData.subtitle}
           </p>
         </motion.div>
 
@@ -78,7 +78,7 @@ const Contact = () => {
                 <h3 className="font-semibold">Email</h3>
 
                 <p className="text-slate-600 dark:text-slate-400">
-                  victorhappiness18@gmail.com
+                  {contactData.email}
                 </p>
               </div>
             </div>
@@ -92,7 +92,7 @@ const Contact = () => {
                 <h3 className="font-semibold">Phone</h3>
 
                 <p className="text-slate-600 dark:text-slate-400">
-                  +234 8080030065
+                  {contactData.phone}
                 </p>
               </div>
             </div>
@@ -106,7 +106,7 @@ const Contact = () => {
                 <h3 className="font-semibold">Location</h3>
 
                 <p className="text-slate-600 dark:text-slate-400">
-                  Lagos, Nigeria
+                  {contactData.location}
                 </p>
               </div>
             </div>

@@ -7,6 +7,9 @@ import Contact from "../sections/Contact";
 import Footer from "../components/layouts/Footer";
 import Stats from "../sections/Stats";
 import BackToTop from "../components/ui/BackToTop";
+import Experience from "../sections/Experience";
+import CallToAction from "../sections/CallToAction";
+import Services from "../sections/Services";
 
 const Home = () => {
   return (
@@ -14,11 +17,15 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About />
+      <Services />
       <Skills />
+      <Experience />
       <Projects />
+      <CallToAction />
       <Contact />
       <Footer />
       <Stats />
+
       <BackToTop />
     </>
   );
