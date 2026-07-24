@@ -124,7 +124,7 @@ npm run build
 
 💻 GitHub: https://github.com/happyv288
 
-🌐 Portfolio: Coming Soon
+🌐 [Portfolio: https://github.com/happyv288/Happiness-Portfolio
 
 ---
 
